@@ -18,6 +18,7 @@ function convertToRomanNumerals (number) {
 
   const onesPlace = number % 10
   const tensPlace = Math.floor(number / 10) % 10
+  const hundredsPlace = Math.floor(number / 100) % 10
 
   if (onesPlace) {
     const index = onesPlace - 1
@@ -34,7 +35,16 @@ function convertToRomanNumerals (number) {
     convertedNumber = patternAtPlace + convertedNumber
   }
 
-  if (number === 50) return 'L'
+  if (hundredsPlace) {
+    const index  = hundredsPlace - 1
+
+    let patternAtPlace = pattern[index]
+      .replace(/X/g, 'M')
+      .replace(/V/g, 'D')
+      .replace(/I/g, 'C')
+    convertedNumber = patternAtPlace + convertedNumber
+  }
+
   if (number === 100) return 'C'
   if (number === 500) return 'D'
   if (number === 1000) return 'M'

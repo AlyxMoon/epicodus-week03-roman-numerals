@@ -157,3 +157,27 @@ Test: 'It converts 99 to XCIX'
 Code: convertToRomanNumeral(99)
 Expected: 'XCIX'
 ```
+
+```
+Test: 'It converts 110 to CX'
+Code: convertToRomanNumeral(110)
+Expected: 'CX'
+```
+
+```
+Test: 'It converts 345 to CCCXLV'
+Code: convertToRomanNumeral(345)
+Expected: 'CCCXLV'
+```
+
+```
+Test: 'It converts 699 to DCXCIX'
+Code: convertToRomanNumeral(699)
+Expected: 'DCXCIX'
+```
+
+```
+Test: 'It converts 980 to CMLXXX'
+Code: convertToRomanNumeral(980)
+Expected: 'CMLXXX'
+```

@@ -216,6 +216,33 @@ const tests = [
 
     logResult(actual, expected)
   },
+
+  () => {
+    logDescription('It converts 345 to CCCXLV')
+
+    const actual = convertToRomanNumerals(345)
+    const expected = 'CCCXLV'
+
+    logResult(actual, expected)
+  },
+
+  () => {
+    logDescription('It converts 699 to DCXCIX')
+
+    const actual = convertToRomanNumerals(699)
+    const expected = 'DCXCIX'
+
+    logResult(actual, expected)
+  },
+
+  () => {
+    logDescription('It converts 980 to CMLXXX')
+
+    const actual = convertToRomanNumerals(980)
+    const expected = 'CMLXXX'
+
+    logResult(actual, expected)
+  },
 ]
 
 function runTests () {
