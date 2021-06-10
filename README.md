@@ -139,3 +139,21 @@ Test: 'It converts 21 to XXI'
 Code: convertToRomanNumeral(21)
 Expected: 'XXI'
 ```
+
+```
+Test: 'It converts 68 to LXVIII'
+Code: convertToRomanNumeral(68)
+Expected: 'LXVIII'
+```
+
+```
+Test: 'It converts 93 to XCIII'
+Code: convertToRomanNumeral(93)
+Expected: 'XCIII'
+```
+
+```
+Test: 'It converts 99 to XCIX'
+Code: convertToRomanNumeral(99)
+Expected: 'XCIX'
+```
