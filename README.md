@@ -105,7 +105,7 @@ Expected: 'IV'
 ```
 
 ```
-Test: 'It converts 9 to XI'
+Test: 'It converts 9 to IX'
 Code: convertToRomanNumeral(4)
 Expected: 'IV'
 ```
