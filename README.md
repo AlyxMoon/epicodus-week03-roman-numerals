@@ -181,3 +181,15 @@ Test: 'It converts 980 to CMLXXX'
 Code: convertToRomanNumeral(980)
 Expected: 'CMLXXX'
 ```
+
+```
+Test: 'It converts 2100 to MMC'
+Code: convertToRomanNumeral(2100)
+Expected: 'MMC'
+```
+
+```
+Test: 'It converts 3499 to MMMCDXCIX'
+Code: convertToRomanNumeral(3499)
+Expected: 'MMMCDXCIX'
+```

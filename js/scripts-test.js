@@ -243,6 +243,25 @@ const tests = [
 
     logResult(actual, expected)
   },
+
+  () => {
+    logDescription('It converts 2100 to MMC')
+
+    const actual = convertToRomanNumerals(2100)
+    const expected = 'MMC'
+
+    logResult(actual, expected)
+  },
+
+  () => {
+    logDescription('It converts 3499 to MMMCDXCIX')
+
+    const actual = convertToRomanNumerals(3499)
+    const expected = 'MMMCDXCIX'
+
+    logResult(actual, expected)
+  },
+
 ]
 
 function runTests () {
