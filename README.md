@@ -73,3 +73,21 @@ Test: 'It converts 1000 to M'
 Code: convertToRomanNumeral(1000)
 Expected: 'M'
 ```
+
+```
+Test: 'It converts 2 to II'
+Code: convertToRomanNumeral(2)
+Expected: 'II'
+```
+
+```
+Test: 'It converts 3 to III'
+Code: convertToRomanNumeral(3)
+Expected: 'III'
+```
+
+```
+Test: 'It converts 4 to IV'
+Code: convertToRomanNumeral(4)
+Expected: 'IV'
+```

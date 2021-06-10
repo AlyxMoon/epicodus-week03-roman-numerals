@@ -8,4 +8,8 @@ function convertToRomanNumerals (number) {
   if (number === 100) return 'C'
   if (number === 500) return 'D'
   if (number === 1000) return 'M'
+
+  if (number === 2) return 'II'
+  if (number === 3) return 'III'
+  if (number === 4) return 'IV'
 }
