@@ -91,3 +91,21 @@ Test: 'It converts 4 to IV'
 Code: convertToRomanNumeral(4)
 Expected: 'IV'
 ```
+
+```
+Test: 'It converts 6 to VI'
+Code: convertToRomanNumeral(4)
+Expected: 'IV'
+```
+
+```
+Test: 'It converts 8 to VIII'
+Code: convertToRomanNumeral(4)
+Expected: 'IV'
+```
+
+```
+Test: 'It converts 9 to XI'
+Code: convertToRomanNumeral(4)
+Expected: 'IV'
+```

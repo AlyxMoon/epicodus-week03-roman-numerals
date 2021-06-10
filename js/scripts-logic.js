@@ -12,4 +12,8 @@ function convertToRomanNumerals (number) {
   if (number === 2) return 'II'
   if (number === 3) return 'III'
   if (number === 4) return 'IV'
+  
+  if (number === 6) return 'VI'
+  if (number === 8) return 'VIII'
+  if (number === 9) return 'IX'
 }

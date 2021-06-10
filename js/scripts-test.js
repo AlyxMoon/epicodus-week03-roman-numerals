@@ -117,6 +117,33 @@ const tests = [
 
     logResult(actual, expected)
   },
+
+  () => {
+    logDescription('It converts 6 to VI')
+
+    const actual = convertToRomanNumerals(6)
+    const expected = 'VI'
+
+    logResult(actual, expected)
+  },
+
+  () => {
+    logDescription('It converts 8 to VIII')
+
+    const actual = convertToRomanNumerals(8)
+    const expected = 'VIII'
+
+    logResult(actual, expected)
+  },
+
+  () => {
+    logDescription('It converts 9 to IX')
+
+    const actual = convertToRomanNumerals(9)
+    const expected = 'IX'
+
+    logResult(actual, expected)
+  },
 ]
 
 function runTests () {
