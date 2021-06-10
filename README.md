@@ -94,18 +94,48 @@ Expected: 'IV'
 
 ```
 Test: 'It converts 6 to VI'
-Code: convertToRomanNumeral(4)
+Code: convertToRomanNumeral(6)
 Expected: 'IV'
 ```
 
 ```
 Test: 'It converts 8 to VIII'
-Code: convertToRomanNumeral(4)
+Code: convertToRomanNumeral(8)
 Expected: 'IV'
 ```
 
 ```
 Test: 'It converts 9 to IX'
-Code: convertToRomanNumeral(4)
+Code: convertToRomanNumeral(9)
 Expected: 'IV'
+```
+
+```
+Test: 'It converts 11 to XI'
+Code: convertToRomanNumeral(11)
+Expected: 'XI'
+```
+
+```
+Test: 'It converts 15 to XV'
+Code: convertToRomanNumeral(15)
+Expected: 'XV'
+```
+
+```
+Test: 'It converts 19 to XIX'
+Code: convertToRomanNumeral(19)
+Expected: 'XIX'
+```
+
+```
+Test: 'It converts 20 to XX'
+Code: convertToRomanNumeral(20)
+Expected: 'XX'
+```
+
+```
+Test: 'It converts 21 to XXI'
+Code: convertToRomanNumeral(21)
+Expected: 'XXI'
 ```
