@@ -32,3 +32,44 @@ M       1,000
 
 ### Describe: convertToRomanNumeral();
 
+```
+Test: 'It converts 1 to I'
+Code: convertToRomanNumeral(1)
+Expected: 'I'
+```
+
+```
+Test: 'It converts 5 to V'
+Code: convertToRomanNumeral(5)
+Expected: 'V'
+```
+
+```
+Test: 'It converts 10 to X'
+Code: convertToRomanNumeral(10)
+Expected: 'X'
+```
+
+```
+Test: 'It converts 50 to L'
+Code: convertToRomanNumeral(50)
+Expected: 'L'
+```
+
+```
+Test: 'It converts 100 to C'
+Code: convertToRomanNumeral(100)
+Expected: 'C'
+```
+
+```
+Test: 'It converts 500 to D'
+Code: convertToRomanNumeral(500)
+Expected: 'D'
+```
+
+```
+Test: 'It converts 1000 to M'
+Code: convertToRomanNumeral(1000)
+Expected: 'M'
+```
