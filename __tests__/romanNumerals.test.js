@@ -28,5 +28,21 @@ describe('Roman Numerals', () => {
   test('converts 1000 to M', () => {
     expect(convertToRomanNumerals(1000)).toEqual('M')
   })
+
+  test('converts 4 to IV', () => {
+    expect(convertToRomanNumerals(4)).toEqual('IV')
+  })
   
+  test('converts 11 to XI', () => {
+    expect(convertToRomanNumerals(11)).toEqual('XI')
+  })
+
+  test('returns 0 as Romans didn\'t have zero!', () => {
+    expect(convertToRomanNumerals(0)).toEqual('Romans didn\'t have zero!')
+  })
+  
+  test('converts 153 to CLIII', () => {
+    expect(convertToRomanNumerals(153)).toEqual('CLIII')
+  })
+
 })
